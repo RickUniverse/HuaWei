@@ -1,0 +1,21 @@
+#联动表
+DROP TABLE IF EXISTS linkage;
+CREATE TABLE linkage(
+	id INT AUTO_INCREMENT COMMENT'主键',
+	Category INT COMMENT'种类id',#
+	Seriesid INT COMMENT'细分id',#
+	PRIMARY KEY(id),
+	KEY `fk_linkage_Category`(Category),
+	CONSTRAINT `fk_linkage_Category` FOREIGN KEY(Category) REFERENCES Category(id),
+	
+	KEY `fk_linkage_Seriesid`(Seriesid),
+	CONSTRAINT `fk_linkage_Seriesid` FOREIGN KEY(Seriesid) REFERENCES Series(id)
+)CHARSET 'utf8';
+#插入测试数据 yes
+INSERT INTO linkage(Category,Seriesid) VALUES(1,1),
+(1,1),
+(1,1);
+#描述
+DESC linkage;
+#查询
+SELECT * FROM linkage;

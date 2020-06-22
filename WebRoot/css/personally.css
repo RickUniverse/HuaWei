@@ -1,0 +1,311 @@
+/* 顶部导航 */
+.breadcrumb-area{
+	width: 1200px;
+	height: 50px;
+	margin: 10px auto;	
+}
+.breadcrumb-area p{
+	line-height: 50px;
+}
+.breadcrumb-area p a{
+	color:#666666;
+	font-size:12px ;
+}
+.breadcrumb-area p a:hover{
+	color: #ca141d;
+}
+.breadcrumb-area p span{
+	position: relative;
+	width:16px;
+    height:16px;
+    display: inline-block;
+}
+.breadcrumb-area p span:after{
+	content: ' ';
+    position: absolute;
+    padding:8px;
+    right: 0px;
+    top: 70%;
+    transform: translateY(-50%);
+    background: url(../homeimage/icon01.svg) no-repeat;
+    background-position: -363px 0;
+}
+/* right-menu */
+.content-box{
+	width: 1200px;
+	margin: 0px auto;
+}
+.menu-area{
+	width: 176px;
+	border: 1px solid rgba(125,125,125,.2);
+	border-radius: 10px;
+}
+.menu-title h6{
+	font-size: 18px;
+	color: #cf0a2c;
+	line-height: 60px;
+	text-align: center;
+	font-weight: 400;
+	border-bottom: 1px solid rgba(125,125,125,.2);
+}
+.menu-area dl{
+	margin-left: 20px;
+	border-bottom: 1px solid rgba(125,125,125,.2);
+}
+.menu-area dl dt,.menu-area dl dt>a{
+	font-size: 14px;
+    color: #444;
+    font-weight: bold;
+    line-height: 35px;
+}
+.menu-area dl dd a{
+	font-size: 14px;
+    color: #777;
+    line-height: 35px;
+}
+.menu-area dl dd a:hover{
+	color: #cf0a2c;
+}
+/* 右边内容 */
+.body-content{
+	width: 940px;
+}
+.body-content .con-title h6{
+	font-size: 24px;
+    color: #3a3a3a;
+    line-height: 60px;
+    font-weight:400;
+    border-bottom: 1px solid rgba(125,125,125,.4);
+}
+.status-condition {
+	margin: 20px 0px;
+}
+.status-condition a{
+	font-size: 14px;
+    color: #666666;
+    padding: 6px 15px;
+    background-color: #f2f2f2;
+    display: inline-block;
+}
+.status-condition a span{
+	color: #cf0a2c;
+}
+/* 全选支付 */
+.all-check{
+	margin: 30px 0px;
+}
+.all-check a{
+	font-size: 14px;
+    color: #3a3a3a;
+}
+.all-check .merge-pay{
+	font-size: 14px;
+    color: #ffffff;
+    background-color: #ca151e;
+    padding: 4px 20px;
+}
+/* 标题 */
+.indent-content .thead-top{
+	padding: 8px 0px;
+	background-color: #fafafa;
+	margin-bottom: 20px;
+}
+.indent-content .thead-top th{
+	font-size: 14px;
+    color: #888888;
+    font-weight: 400;
+}
+.commodity-tit{
+	width: 434px;
+}
+.one-price-tit{
+	width: 95px;
+	border-left: 1px solid rgba(125,125,125,.2);
+}
+.store-tit{
+	width: 75px;
+	border-left: 1px solid rgba(125,125,125,.2);
+}
+.status-tit{
+	width: 75px;
+	border-left: 1px solid rgba(125,125,125,.2);
+}
+.yes-money-tit{
+	width: 109px;
+	border-left: 1px solid rgba(125,125,125,.2);
+}
+.operate-tit{
+	width: 146px;
+	border-left: 1px solid rgba(125,125,125,.2);
+}
+/* 商品集合地 */
+.list-group .in-info{
+	font-size: 14px;
+    color: #888888;
+    margin-top:20px;
+    margin-bottom: 10px;
+    padding-bottom:7px;
+    
+}
+.list-group .in-info p input{
+	margin-bottom: 4px;
+}
+.list-group .in-info a{
+	color: #3a3a3a;
+}
+.list-group .in-info a:hover{
+	color: #ca151e;
+}
+/* 主体商品 */
+.o-pro-main{
+	border-bottom: 1px solid rgba(125,125,125,.3);
+}
+.o-pro-main .p-info{
+	display: table-cell;
+	width: 434px;
+	border-top: 1px solid rgba(125,125,125,.4);
+	padding: 10px 0px;
+}
+.o-pro-main .p-info p{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 14px;
+    color: #3a3a3a;
+}
+.o-pro-main{
+	display: table-cell;
+}
+.o-pro-main .p-info p img{
+	width: 100px;
+	height: 100px;
+}
+.o-pro-main .p-info p a{
+	color: #3a3a3a;
+}
+.o-pro-main .p-price{
+	display: table-cell;
+	vertical-align: middle;
+	width: 95px;
+	font-size: 14px;
+    color: #aaaaaa;
+    border:1px solid rgba(125,125,125,.3);
+    border-bottom:none;
+    text-align: center;
+}
+.o-pro-main .p-quty{
+	display: table-cell;
+	vertical-align: middle;
+	width: 75px;
+	font-size: 14px;
+    color: #aaaaaa;
+    border:1px solid rgba(125,125,125,.3);
+    text-align: center;
+    border-bottom:none;
+}
+.tao-can-du{
+	border: 1px solid #ca141d;
+	padding: 0px 10px;
+	border-radius: 1px;
+	font-size: 12px;
+	margin-right:10px;
+    color: #ca141d;
+}
+/* 商城处理中 */
+.o-pro-condition{
+	display: table-cell;
+	vertical-align: middle;
+	width: 75px;
+	font-size: 12px;
+    color: #aaaaaa;
+    border:1px solid rgba(125,125,125,.3);
+    text-align: center;
+    border-right: none;
+    border-left:none;
+}
+.yes-price-ok{
+	vertical-align: middle;
+	width: 109px;
+	font-size: 14px;
+    color: #aaaaaa;
+    border:1px solid rgba(125,125,125,.3);
+    text-align: center;
+}
+.action-a{
+	vertical-align: middle;
+	width: 146px;
+	font-size: 14px;
+    color: #aaaaaa;
+    border:1px solid rgba(125,125,125,.3);
+    text-align: center;
+    border-left:none;
+}
+/* 操作 */
+.action-a p a{
+	font-size: 14px;
+    color: #3a3a3a;
+    display: block;
+    margin-top: 5px;
+}
+.now-pay-money span{
+	background-color: #ca151e;
+	padding:5px 24px;
+	color: #ffffff;
+}
+
+.hebing-pay{
+	font-size: 14px;
+    color: #3a3a3a;
+    margin-top: 20px;
+}
+.hebing-pay input{
+	margin-bottom: 2px;
+}
+.pay-he-e-e{
+	background-color: #ca151e;
+	padding:5px 24px;
+	color: #ffffff;
+	
+}
+.indent-content{
+	margin-bottom: 30px;
+}
+/* 分页 */
+
+.page-box{
+	float: right;
+}
+.page-box ul a{
+	display: table-cell;
+	vertical-align: middle;
+	border: 1px solid rgba(125,125,125,.3);
+	padding: 10px 10px;
+	color: #3a3a3a;
+	font-size: 15px;
+}
+
+/* 顶部 按钮变色 */
+.status-condition a:hover{
+	background-color: #2d2d2d!important;
+	color: #ffffff!important;
+}
+.status-action{
+	background-color: #2d2d2d!important;
+	color: #ffffff!important;
+}
+
+.pageaction{
+	color: #ca141d!important;
+}
+
+/* hover */
+.action-a a:hover{
+	color: #cf0a2c;
+}
+
+
+
+
+
+
+
+

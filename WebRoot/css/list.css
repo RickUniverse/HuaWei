@@ -1,0 +1,156 @@
+/* list */
+body{
+	background-color: #f5f5f5;
+}
+.breadcrumb-area{
+	width: 1200px;
+	height: 50px;
+	margin: 30px auto;	
+}
+.breadcrumb-area p{
+	line-height: 50px;
+}
+.breadcrumb-area p a{
+	color:#666666;
+	font-size:12px ;
+}
+.breadcrumb-area p a:hover{
+	color: #ca141d;
+}
+.breadcrumb-area p span{
+	position: relative;
+	width:16px;
+    height:16px;
+    display: inline-block;
+}
+.breadcrumb-area p span:after{
+	content: ' ';
+    position: absolute;
+    padding:8px;
+    right: 0px;
+    top: 70%;
+    transform: translateY(-50%);
+    background: url(../homeimage/icon01.svg) no-repeat;
+    background-position: -363px 0;
+}
+/* search */
+.layout-list-search{
+	width: 1160px;
+	border: 1px solid red;
+	margin: 0px auto;	
+	padding: 5px 20px;
+	background-color: #ffffff;
+	border: 1px solid rgba(0,0,0,.1);
+}
+.layout-list-search p{
+	line-height: 35px;
+}
+.layout-list-search p{
+	color:#666666;
+	font-size:12px ;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.layout-list-search p a{
+	color:#333333;
+	margin-left: 20px;
+}
+.layout-list-search p a:hover{
+	color: #ca141d;
+}
+.layout-list-search .last-p{
+	border-bottom: 0px;
+}
+/* content */
+.channel-list-search{
+	width: 1200px;
+	margin: 20px auto;	
+}
+.channel-list-search img{
+	width: 180px;
+	height: 180px;
+}
+.channel-list-search ul li{
+	float: left;
+	width: 232px;
+	height: 352px;
+	background-color: #ffffff;
+	margin: 0px 8px 15px 0px;
+	border-radius: 10px; 
+	transition:all .3s;
+}
+.channel-list-search ul li:hover{
+	box-shadow: -2px 5px 10px rgba(0,0,0,.1);
+}
+.channel-list-search ul li a{
+	margin: 0px auto;
+	display: block;
+	padding: 10px;
+}
+.channel-list-search ul li a div{
+	width: 180px;
+	margin: 0px auto;
+}
+.channel-list-search ul li a span{
+	display: block;
+	margin-top: 10px;
+}
+.channel-list-search ul li a .search-name{
+	color: #333333;
+	font-size: 16px;
+}
+.channel-list-search ul li a .search-price{
+	color: #ca141d;
+	font-size: 18px;
+}
+.channel-list-search ul li a .search-promotion{
+	color: #ca141d;
+	font-size: 12px;
+	display:inline-block;
+	border: 1px solid #ca141d;
+	padding: 2px;
+}
+.channel-list-search ul li a .search-tit{
+	color: #777777;
+	font-size: 14px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/* page */
+.page-box{
+	width: 1200px;
+	margin: 20px auto;
+}
+.page-box ul a{
+	display: block;
+	float: left;
+	color: #777777;
+	font-size: 14px;
+	background-color: #ffffff;
+	margin-right: 3px;
+	padding: 10px;
+}
+
+/* current */
+.current{
+	color:#ca141d!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
