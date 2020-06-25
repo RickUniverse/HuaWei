@@ -28,7 +28,7 @@ public class OneMenuImpl extends BaseDao implements OneMenuDao {
 		List<OneMenu> liom = new ArrayList<OneMenu>();
 		CategoryDao cimp = new CategoryImpl(); 
 		SeriesDao simp = new SeriesImpl();
-		ResultSet rs = super.executeQuery(null, "SELECT * FROM oneMenu;");
+		ResultSet rs = super.executeQuery(null, "SELECT * FROM onemenu");
 		try {
 			while(rs.next()){
 				OneMenu o = new OneMenu();
@@ -56,7 +56,7 @@ public class OneMenuImpl extends BaseDao implements OneMenuDao {
 		OneMenu o = null;
 		CategoryDao cimp = new CategoryImpl(); 
 		TwoMenuDao tim = new TwoMenuImpl();
-		ResultSet rs = super.executeQuery(null, "SELECT * FROM oneMenu where id = "+id+";");
+		ResultSet rs = super.executeQuery(null, "SELECT * FROM onemenu where id = "+id+"");
 		try {
 			while(rs.next()){
 				o = new OneMenu();

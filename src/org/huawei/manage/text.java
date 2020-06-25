@@ -13,7 +13,7 @@ public class text {
 			System.out.println(f.getCategory().getsName());
 			for(Series s :f.getLiSeries()){
 				System.out.println(s);
-			}
+			} 
 			for(ColorandConfigure s :f.getLiColorandConfigure()){
 				System.out.println(s);
 			}

@@ -170,9 +170,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<input type="hidden" name="max" value="100000000" id="hidMaxPrice" /><!-- 默认价格无限 -->
 						
 						<input type="text" maxlength="200" name="commodityName"  value="" class="search-so" id="search-so" /> 
-						<input type="submit" value="" class="search-sub" />
+						<input type="submit" class="search-sub" />
 						<div class="search-cont"><!-- ListSearchServlet.html?commodityName=P40 ListSearchServlet.html?commodityName=荣耀30系列-->
-							<a href="javascript:;"> P40 </a> <a href="javascript:;"> 荣耀30系列 </a>
+							<a href="javascript:;"> 荣     </a> <a href="javascript:;"> 荣耀30系列     </a>
 						</div>
 						<script>
 							var search_a = document.getElementsByClassName('search-cont')[0].children;

@@ -45,7 +45,7 @@ public class ListSearchServlet extends HttpServlet {
 		//获取商品类别跟细分id
 		String hidCate = request.getParameter("hidCategory");//获取隐藏categoryid
 		String hidSeries = request.getParameter("hidSeries");//获取隐藏seriesid
-		String cName = request.getParameter("commodityName");//获取商品名
+		String cName = request.getParameter("commodityName").trim();//获取商品名    并且去除空格
 		int categoryId = 0;//种类id，用来查询
 		int seriseId = 0;//细分id，用来查询
 		if(hidCate!=null&&!hidCate.equals("")){

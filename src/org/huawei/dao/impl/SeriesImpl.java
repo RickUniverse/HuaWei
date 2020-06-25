@@ -24,7 +24,7 @@ public class SeriesImpl extends BaseDao implements SeriesDao {
 	@Override
 	public List<Series> selectSeriesById(int onemenuid) {
 		List<Series> lis = new ArrayList<Series>();
-		ResultSet rs = super.executeQuery(null, "SELECT * FROM twoMenu AS t INNER JOIN series AS s ON t.`seriesid` = s.`id` WHERE t.`oneMenuid` = "+onemenuid+"");
+		ResultSet rs = super.executeQuery(null, "SELECT * FROM twomenu AS t INNER JOIN series AS s ON t.`seriesid` = s.`id` WHERE t.`oneMenuid` = "+onemenuid+"");
 		try {
 			while(rs.next()){
 				Series s = new Series();

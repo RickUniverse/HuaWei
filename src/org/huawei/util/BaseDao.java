@@ -12,6 +12,9 @@ public class BaseDao {
 	public final String url = "jdbc:mysql://localhost:3306/huawei";
 	public final String user = "root";
 	public final String password = "root";
+	/*public final String url = "jdbc:mysql://192.168.0.108:3306/huawei";
+	public final String user = "lijichen";
+	public final String password = "lijichen";*/
 	
 	static{
 		try {
