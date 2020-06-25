@@ -6,3 +6,5 @@
 数据库：MySql;
 数据库跟代码有注释
 plan文件夹下有数据库设计文档
+首页访问：/HuaWei/HomePageServlet.shtml
+后台访问：/HuaWei/AdminIndexServlet.shtml
