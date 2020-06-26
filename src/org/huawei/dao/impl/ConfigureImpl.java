@@ -21,7 +21,7 @@ public class ConfigureImpl extends BaseDao implements ConfigureDao {
 	@Override
 	public Configure selectConfigureById(int id) {
 		Configure c = null;
-		ResultSet rs = super.executeQuery(null, "SELECT * FROM Configure WHERE id = "+id+";");
+		ResultSet rs = super.executeQuery(null, "SELECT * FROM configure WHERE id = "+id+";");
 		try {
 			while(rs.next()){
 				c = new Configure(rs.getInt("id"),rs.getString("cName"));

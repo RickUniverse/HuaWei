@@ -66,7 +66,7 @@ public class CommodityImpl extends BaseDao implements CommodityDao {
 		Commodity c = null;
 		CategoryDao cateimp = new CategoryImpl();
 		SeriesDao serimp = new SeriesImpl();
-		ResultSet rs = super.executeQuery(null, "SELECT * FROM Commodity WHERE id ="+id+";");
+		ResultSet rs = super.executeQuery(null, "SELECT * FROM commodity WHERE id ="+id+";");
 		try {
 			while(rs.next()){
 				c = new Commodity();

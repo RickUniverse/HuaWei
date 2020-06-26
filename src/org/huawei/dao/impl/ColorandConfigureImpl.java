@@ -174,7 +174,7 @@ public class ColorandConfigureImpl extends BaseDao implements ColorandConfigureD
 	@Override
 	public ColorandConfigure selectColorandConfigureByCommodityId(int commodityId) {
 		ColorandConfigure c = null;
-		ResultSet rs = super.executeQuery(null, "SELECT * FROM ColorandConfigure AS c WHERE c.`commodityId` = "+commodityId+" LIMIT 1;");
+		ResultSet rs = super.executeQuery(null, "SELECT * FROM colorandconfigure AS c WHERE c.`commodityId` = "+commodityId+" LIMIT 1;");
 		try {
 			while(rs.next()){
 				c = new ColorandConfigure();

@@ -26,7 +26,7 @@ public class TwoMenuImpl extends BaseDao implements TwoMenuDao {
 	public List<TwoMenu> selectTwoMenuById(int onemenuid) {
 		List<TwoMenu> litm = new ArrayList<TwoMenu>();
 		SeriesDao simp = new SeriesImpl();
-		ResultSet rs = super.executeQuery(null, "SELECT * FROM twoMenu WHERE oneMenuid = "+onemenuid+"");
+		ResultSet rs = super.executeQuery(null, "SELECT * FROM twomenu WHERE oneMenuid = "+onemenuid+"");
 		try {
 			while(rs.next()){
 				TwoMenu t = new TwoMenu();
@@ -55,7 +55,7 @@ public class TwoMenuImpl extends BaseDao implements TwoMenuDao {
 		TwoMenu t = null;
 		List<Series> lis = new ArrayList();
 		/*SeriesDao simp = new SeriesImpl();*/
-		ResultSet rs = super.executeQuery(null, "SELECT * FROM twoMenu AS t INNER JOIN series AS s ON t.`seriesid` = s.`id` WHERE oneMenuid = "+onemenuid+"");
+		ResultSet rs = super.executeQuery(null, "SELECT * FROM twomenu AS t INNER JOIN series AS s ON t.`seriesid` = s.`id` WHERE oneMenuid = "+onemenuid+"");
 		try {
 			while(rs.next()){
 				t = new TwoMenu();

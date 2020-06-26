@@ -27,7 +27,7 @@ public class IndentDetailImpl extends BaseDao implements IndentDetailDao {
 		ComboDao coImp = new ComboImpl();
 		IndentDao iImp = new IndentImpl();
 		ColorandConfigureDao clImp = new ColorandConfigureImpl();
-		ResultSet rs = super.executeQuery(null, "SELECT * FROM indentDetail AS ide WHERE ide.`indentId` = "+indentId+";");
+		ResultSet rs = super.executeQuery(null, "SELECT * FROM indentdetail AS ide WHERE ide.`indentId` = "+indentId+";");
 		try {
 			while(rs.next()){
 				IndentDetail i = new IndentDetail();
@@ -57,7 +57,7 @@ public class IndentDetailImpl extends BaseDao implements IndentDetailDao {
 	 */
 	@Override
 	public boolean addIndentDetail(IndentDetail i) {
-		return super.executeUpdate(new Object[]{i.getIndentId(),i.getColorAndConfigureId(),false,i.getComboId(),i.getTotal()}, "INSERT INTO indentDetail(indentId,colorAndConfigureId,isAppraise,comboId,total) VALUES(?,?,?,?,?)");
+		return super.executeUpdate(new Object[]{i.getIndentId(),i.getColorAndConfigureId(),false,i.getComboId(),i.getTotal()}, "INSERT INTO indentdetail(indentId,colorAndConfigureId,isAppraise,comboId,total) VALUES(?,?,?,?,?)");
 	}
 
 }

@@ -49,7 +49,7 @@ function createLi(result){
 	var ul = $('.weiyi').empty();
 	$(eval('('+result+')')[0]).each(function(i,e){
 		var li = $('<li></li>');
-		var a = $('<a href="javascript:;"></a>').appendTo($(li));
+		var a = $('<a href="DetailServlet.shtml?colorandConfigureId='+e.id+'"></a>').appendTo($(li));
 		$('<div><img src="'+e.commodity.image+'" alt="" /></div>').appendTo($(a));
 		$('<span class="search-name">'+e.commodity.cName+'</span>').appendTo($(a));
 		$('<span class="search-price">￥'+e.price+'</span>').appendTo($(a));
