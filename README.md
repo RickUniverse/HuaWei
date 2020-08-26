@@ -8,3 +8,4 @@
 plan文件夹下有数据库设计文档
 首页访问：/HuaWei/HomePageServlet.shtml
 后台访问：/HuaWei/AdminIndexServlet.shtml
+博客：https://blog.csdn.net/qq_42035161/article/details/106959425
