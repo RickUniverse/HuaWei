@@ -28,7 +28,7 @@
 
 #### 信息
 
-1.  CSDN 博客：[能量馒头](https://blog.csdn.net/qq_42035161/article/details/106959425)
+1.  CSDN 博客：[有部分展示](https://blog.csdn.net/qq_42035161/article/details/106959425)
 
 #### 其他
 - 数据库跟代码有注释。
